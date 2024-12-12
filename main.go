@@ -23,7 +23,7 @@ func (g *Game) Layout(outsideWidth, outsideHeight int) (screenWidth, screenHeigh
 
 func main() {
 	ebiten.SetWindowSize(1280, 720)
-	ebiten.SetWindowTitle("platformer ndfjsn")
+	ebiten.SetWindowTitle("platformer")
 	if err := ebiten.RunGame(&Game{}); err != nil {
 		log.Fatal(err)
 	}
